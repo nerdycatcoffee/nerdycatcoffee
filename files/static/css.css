@@ -1,0 +1,105 @@
+body {
+  background-color: #ecf0f1;
+  font: "Roboto", sans-serif;
+}
+header {
+  padding: 15px 5px 0px;
+  z-index: 30;
+  position: relative;
+}
+.logo {
+  width: 250px;
+  max-width: 100%;
+  margin: 0px auto 30px;
+  display: block;
+  background: #fff;
+  border-radius: 100%;
+  padding: 10px;
+  border: 5px #f7b813 solid;
+}
+.footer,
+.hero {
+  min-height: 400px;
+  background: url("https://storage.googleapis.com/nerdy-cat-coffee-web/static/wheatbg.jpeg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.footer:after,
+.hero:after {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6c2e32;
+  opacity: 0.9;
+}
+.footer {
+  margin-top: -300px;
+}
+.box {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.form-box {
+  background-color: #fff;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.item-img {
+  /* border-radius: 15px; */
+}
+@media (min-width: 768px) {
+  .item-img {
+    margin-right: -30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+.social {
+  width: 30px;
+  display: block;
+  margin: 5px auto;
+}
+.box-content {
+  padding: 30px;
+}
+.item-cost {
+  color: #dc544c;
+}
+.item-title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.faq-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  border-bottom: 2px solid #8a5d31;
+}
+.border-left-yellow {
+  border-left: 5px solid #f7b813;
+  border-left-radius: 5px;
+}
+.main-container {
+  position: relative;
+  z-index: 50;
+  margin-top: -350px;
+}
+// red: #6C2E32
+// orange: DC544C
+// yellow #F7B813
+// brown 8A5D31
