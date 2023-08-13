@@ -20,8 +20,8 @@ header {
 .footer,
 .hero {
   min-height: 400px;
-  background: url("https://storage.googleapis.com/nerdy-cat-coffee-web/static/wheatbg.jpeg")
-    no-repeat center center fixed;
+  background: url("/nerdy-cat-coffee-web/static/wheatbg.jpeg") no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
